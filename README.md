@@ -14,7 +14,7 @@ The electronics includes circuitry to hook up to the nano and a mountable board 
 
 The assembled test circuit can be seen below:
 
-![BreadBoard Test Setup Photo](./BreaboardTestSetup.JPG)
+![BreadBoard Test Setup Photo](./BreadboardTestSetup.JPG)
 
 **Note**: Problem uploading to Nano from PlatformIO. Seems to be a current issue with the newer Nano boards that have the new bootloader. Uploaded using Arduino IDE instead. Issue raised with PlatformIO: https://github.com/platformio/platform-atmelavr/issues/103
 
