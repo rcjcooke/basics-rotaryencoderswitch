@@ -1,7 +1,7 @@
 #ifndef __ENCODER_H__
 #define __ENCODER_H__
 
-#include "WProgram.h"
+#include <Arduino.h>
 
 class Encoder {
     /*

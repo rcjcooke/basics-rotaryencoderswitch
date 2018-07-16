@@ -1,3 +1,8 @@
+#include <Arduino.h>
+
+// Note: Investigate this code further. Found this at https://playground.arduino.cc/Main/RotaryEncoders#Intro
+
+
 // 'threshold' is the Debounce Adjustment factor for the Rotary Encoder.
 //
 // The threshold value I'm using limits it to 100 half pulses a second
