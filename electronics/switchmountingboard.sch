@@ -183,9 +183,9 @@ DDEController.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="rotaryencoderswitch">
+<library name="rotaryencoderswitch" urn="urn:adsk.eagle:library:4160659">
 <packages>
-<package name="RE111F-4">
+<package name="RE111F-4" urn="urn:adsk.eagle:footprint:4160660/2" library_version="3">
 <description>&lt;p&gt;&lt;b&gt;Rotary Encoder with PushButton&lt;/b&gt;&lt;/p&gt;
 
 Alpha
@@ -208,23 +208,43 @@ Alpha
 <wire x1="5.85" y1="-6" x2="-5.85" y2="-6" width="0.127" layer="21"/>
 <wire x1="-5.85" y1="-6" x2="-5.85" y2="-1.35" width="0.127" layer="21"/>
 <wire x1="-5.85" y1="1.3" x2="-5.85" y2="7.25" width="0.127" layer="21"/>
+<wire x1="-6.7" y1="1.05" x2="-5.3" y2="1.05" width="0.127" layer="20"/>
+<wire x1="-5.3" y1="1.05" x2="-5.3" y2="-1.05" width="0.127" layer="20"/>
+<wire x1="-5.3" y1="-1.05" x2="-6.7" y2="-1.05" width="0.127" layer="20"/>
+<wire x1="-6.7" y1="-1.05" x2="-6.7" y2="1.05" width="0.127" layer="20"/>
+<wire x1="5.3" y1="1.05" x2="6.7" y2="1.05" width="0.127" layer="20"/>
+<wire x1="6.7" y1="1.05" x2="6.7" y2="-1.05" width="0.127" layer="20"/>
+<wire x1="6.7" y1="-1.05" x2="5.3" y2="-1.05" width="0.127" layer="20"/>
+<wire x1="5.3" y1="-1.05" x2="5.3" y2="1.05" width="0.127" layer="20"/>
 <rectangle x1="-6.7" y1="-1.05" x2="-5.3" y2="1.05" layer="46" rot="R180"/>
 <rectangle x1="5.3" y1="-1.05" x2="6.7" y2="1.05" layer="46"/>
 <rectangle x1="-6.8" y1="-1.15" x2="-5.2" y2="1.15" layer="29"/>
 <rectangle x1="5.2" y1="-1.15" x2="6.8" y2="1.15" layer="29"/>
 <rectangle x1="-6.8" y1="-1.15" x2="-5.2" y2="1.15" layer="30"/>
 <rectangle x1="5.2" y1="-1.15" x2="6.8" y2="1.15" layer="30"/>
-<text x="-6.35" y="8.89" size="1.27" layer="25">&gt;NAME</text>
-<text x="-6.35" y="-10.16" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-6.8" y1="-1.15" x2="-5.2" y2="1.15" layer="42"/>
 <rectangle x1="5.2" y1="-1.15" x2="6.8" y2="1.15" layer="41"/>
 <rectangle x1="-6.8" y1="-1.15" x2="-5.2" y2="1.15" layer="41"/>
 <rectangle x1="5.2" y1="-1.15" x2="6.8" y2="1.15" layer="42"/>
 <rectangle x1="-5.85" y1="-6.5" x2="5.85" y2="7.25" layer="39"/>
+<text x="-6.35" y="8.89" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.35" y="-10.16" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="RE111F-4" urn="urn:adsk.eagle:package:4160662/3" type="model" library_version="3">
+<description>&lt;p&gt;&lt;b&gt;Rotary Encoder with PushButton&lt;/b&gt;&lt;/p&gt;
+
+Alpha
+
+&lt;p&gt;R111F-41D I think. From JayCar - SR1230 - they don't supply a manufacturer's part number.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RE111F-4"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="ENCODER_WITH_BUTTON">
+<symbol name="ENCODER_WITH_BUTTON" urn="urn:adsk.eagle:symbol:4160661/1" library_version="2">
 <description>&lt;b&gt;Rotary Encoder with Push Button Switch&lt;/b&gt;
 
 &lt;p&gt;A rotary encoder with pushbutton as purchased from JayCar: https://www.jaycar.com.au/rotary-encoder-with-pushbutton/p/SR1230&lt;/p&gt;
@@ -232,12 +252,12 @@ Alpha
 &lt;p&gt;Suggested usage can be found on the manufacturer's data sheet here: http://www.taiwanalpha.com.tw/english2016/p_e_151.htm&lt;/p&gt;</description>
 <circle x="5.08" y="-2.54" radius="0.508" width="0.254" layer="94"/>
 <circle x="2.54" y="-2.54" radius="0.508" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="5.334" y2="-4.064" width="0.254" layer="94"/>
 <circle x="5.08" y="-7.62" radius="0.508" width="0.254" layer="94"/>
 <circle x="2.54" y="-7.62" radius="0.508" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="5.334" y2="-9.144" width="0.254" layer="94"/>
 <circle x="5.08" y="-10.16" radius="0.508" width="0.254" layer="94"/>
 <circle x="2.54" y="-10.16" radius="0.508" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="5.334" y2="-4.064" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="5.334" y2="-9.144" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-10.16" x2="5.334" y2="-11.684" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-5.08" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
@@ -265,7 +285,7 @@ Alpha
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SR1230" prefix="S">
+<deviceset name="SR1230" urn="urn:adsk.eagle:component:4160663/3" prefix="S" library_version="3">
 <description>&lt;p&gt;&lt;b&gt;Rotary Encoder with Push Button&lt;/b&gt;&lt;/p&gt;
 
 &lt;p&gt;As per JayCar SR1230: https://www.jaycar.com.au/rotary-encoder-with-pushbutton/p/SR1230&lt;/p&gt;
@@ -283,6 +303,9 @@ Alpha
 <connect gate="G$1" pin="S1" pad="S1"/>
 <connect gate="G$1" pin="S2" pad="S2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4160662/3"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MANUFACTURER" value="Alpha"/>
@@ -305,7 +328,7 @@ Alpha
 </classes>
 <parts>
 <part name="X1" library="con-amp-micromatch" library_urn="urn:adsk.eagle:library:122" deviceset="MICROMATCH-6" device="" package3d_urn="urn:adsk.eagle:package:5703/1"/>
-<part name="S1" library="rotaryencoderswitch" deviceset="SR1230" device="" value="SR1230"/>
+<part name="S1" library="rotaryencoderswitch" library_urn="urn:adsk.eagle:library:4160659" deviceset="SR1230" device="" package3d_urn="urn:adsk.eagle:package:4160662/3" value="SR1230"/>
 </parts>
 <sheets>
 <sheet>
